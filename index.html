@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>AI recipe generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter food type"
@@ -23,13 +24,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          4 (4 ounce) lamb chops 1 tablespoon olive oil, or as needed 1 clove
-          garlic, minced
-          <br />
-          ½ tablespoon crushed fresh rosemary leaves sea salt and freshly ground
-          black pepper to taste ¼ cup mint jelly
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
