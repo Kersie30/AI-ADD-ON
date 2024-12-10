@@ -7,41 +7,46 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>AI recipe generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter food type"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        4 (4 ounce) lamb chops 1 tablespoon olive oil, or as needed 1 clove
-        garlic, minced
-        <br />
-        ½ tablespoon crushed fresh rosemary leaves sea salt and freshly ground
-        black pepper to taste ¼ cup mint jelly
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>AI recipe generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter food type"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          4 (4 ounce) lamb chops 1 tablespoon olive oil, or as needed 1 clove
+          garlic, minced
+          <br />
+          ½ tablespoon crushed fresh rosemary leaves sea salt and freshly ground
+          black pepper to taste ¼ cup mint jelly
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Kersie30" target="_blank"> Kersie Karuma </a>
-      and
-      <a href="https://github.com/Kersie30/AI-ADD-ON" target="_blank">
-        is open-sourced on Github
-      </a>
-      and is
-      <a href="https://ai-add-on.netlify.app/" target="_blank">
-        hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Kersie30" target="_blank">
+          Kersie Karuma
+        </a>
+        and
+        <a href="https://github.com/Kersie30/AI-ADD-ON" target="_blank">
+          is open-sourced on Github
+        </a>
+        and is
+        <a href="https://ai-add-on.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
